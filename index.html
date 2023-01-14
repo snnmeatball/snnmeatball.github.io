@@ -31,7 +31,7 @@
 
 <meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Smile Sun" type="application/atom+xml">
+<link rel="alternate" href="atom.xml" title="Smile Sun" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -42,7 +42,7 @@
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
+                <a href="index.html" class="waves-effect waves-light">
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
@@ -56,7 +56,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/" class="waves-effect waves-light">
+    <a href="index.html" class="waves-effect waves-light">
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
@@ -159,7 +159,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/" class="waves-effect waves-light">
+		<a href="index.html" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
@@ -396,7 +396,9 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpeg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpeg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -457,18 +459,18 @@
         
             
             <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/themes/hexo-theme-matery/source/medias/banner/8.jpeg');">
+                 style="background-image: url('../../images/1.jpeg');">
                 <div class="container">
                     <div class="row">
                         <div class="col s10 offset-s1">
-                            <div class="title center-align">typora-vue-theme主题介绍</div>
+                            <div class="title center-align">Vue主题介绍</div>
                             <div class="description center-align">
                                 
                                     这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
                                 
                             </div>
                             <div class="cover-btns">
-                                <a href="/2018/09/07/hello-world/" class="waves-effect waves-light btn"
+                                <a href="2018/09/07/vue/vue/" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -480,18 +482,18 @@
         
             
             <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/themes/hexo-theme-matery/source/medias/featureimages/1.jpg');">
+                 style="background-image: url('../images/1.jpeg');">
                 <div class="container">
                     <div class="row">
                         <div class="col s10 offset-s1">
-                            <div class="title center-align">Vue主题介绍</div>
+                            <div class="title center-align">typora-vue-theme主题介绍</div>
                             <div class="description center-align">
                                 
                                     这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
                                 
                             </div>
                             <div class="cover-btns">
-                                <a href="/2018/09/07/vue/vue/" class="waves-effect waves-light btn"
+                                <a href="2018/09/07/hello-world/" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -705,25 +707,25 @@
     
     <div class="col s12 m6" >
         
-             <div class="post-card" style="background-image: url('/themes/hexo-theme-matery/source/medias/featureimages/0.jpg')">
+             <div class="post-card" style="background-image: url('../../images/1.jpeg')">
         
             <div class="post-body">
                 <div class="post-categories">
                     
                         
-                            <a href="/categories/Markdown/" class="category">Markdown</a>
+                            <a href="categories/Vue/" class="category">Vue</a>
                         
                     
                 </div>
-                <a href="/2018/09/07/hello-world/">
-                    <h3 class="post-title">typora-vue-theme主题介绍</h3>
+                <a href="2018/09/07/vue/vue/">
+                    <h3 class="post-title">Vue主题介绍</h3>
                 </a>
                 <p class="post-description">
                     
                         这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
                     
                 </p>
-                <a href="/2018/09/07/hello-world/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                <a href="2018/09/07/vue/vue/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -733,25 +735,25 @@
     
     <div class="col s12 m6" >
         
-             <div class="post-card" style="background-image: url('/../../themes/hexo-theme-matery/source/medias/featureimages/0.jpg')">
+             <div class="post-card" style="background-image: url('../images/1.jpeg')">
         
             <div class="post-body">
                 <div class="post-categories">
                     
                         
-                            <a href="/categories/Vue/" class="category">Vue</a>
+                            <a href="categories/Markdown/" class="category">Markdown</a>
                         
                     
                 </div>
-                <a href="/2018/09/07/vue/vue/">
-                    <h3 class="post-title">Vue主题介绍</h3>
+                <a href="2018/09/07/hello-world/">
+                    <h3 class="post-title">typora-vue-theme主题介绍</h3>
                 </a>
                 <p class="post-description">
                     
                         这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
                     
                 </p>
-                <a href="/2018/09/07/vue/vue/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                <a href="2018/09/07/hello-world/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -778,7 +780,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-25/">
+                    <a href="2023/01/13/hello-world1-copy-25/">
                         <div class="card-image">
                             
                             
@@ -814,7 +816,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-24/">
+                    <a href="2023/01/13/hello-world1-copy-24/">
                         <div class="card-image">
                             
                             
@@ -850,7 +852,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-23/">
+                    <a href="2023/01/13/hello-world1-copy-23/">
                         <div class="card-image">
                             
                             
@@ -886,7 +888,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-22/">
+                    <a href="2023/01/13/hello-world1-copy-22/">
                         <div class="card-image">
                             
                             
@@ -922,7 +924,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-21/">
+                    <a href="2023/01/13/hello-world1-copy-21/">
                         <div class="card-image">
                             
                             
@@ -958,7 +960,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-20/">
+                    <a href="2023/01/13/hello-world1-copy-20/">
                         <div class="card-image">
                             
                             
@@ -994,7 +996,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-19/">
+                    <a href="2023/01/13/hello-world1-copy-19/">
                         <div class="card-image">
                             
                             
@@ -1030,7 +1032,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-18/">
+                    <a href="2023/01/13/hello-world1-copy-18/">
                         <div class="card-image">
                             
                             
@@ -1066,7 +1068,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-17/">
+                    <a href="2023/01/13/hello-world1-copy-17/">
                         <div class="card-image">
                             
                             
@@ -1102,7 +1104,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-16/">
+                    <a href="2023/01/13/hello-world1-copy-16/">
                         <div class="card-image">
                             
                             
@@ -1138,7 +1140,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-15/">
+                    <a href="2023/01/13/hello-world1-copy-15/">
                         <div class="card-image">
                             
                             
@@ -1174,7 +1176,7 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/01/13/hello-world1-copy-14/">
+                    <a href="2023/01/13/hello-world1-copy-14/">
                         <div class="card-image">
                             
                             
@@ -1228,7 +1230,7 @@
         </div>
         <div class="col s6 m4 l4">
             
-            <a href="/page/2/"
+            <a href="page/2/"
                class="right btn-floating btn-large waves-effect waves-light bg-color">
                 <i class="fas fa-angle-right"></i>
             </a>
