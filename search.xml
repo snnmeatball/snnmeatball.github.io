@@ -342,31 +342,6 @@
     
     
     <entry>
-      <title>Vue主题介绍</title>
-      <link href="/2018/09/07/vue/vue/"/>
-      <url>/2018/09/07/vue/vue/</url>
-      
-        <content type="html"><![CDATA[<h1 id="变更记录-CHANGELOG"><a href="#变更记录-CHANGELOG" class="headerlink" title="变更记录 (CHANGELOG)"></a>变更记录 (CHANGELOG)</h1><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><ul><li><p>v2.0.0</p><ul><li>新增了对 Hexo 5.0.0 的支持，并推荐升级使用 Hexo 5.0.0，去除了对 <code>hexo-prism-plugin</code> 插件的依赖，可直接使用自带的 <code>prismjs</code> 插件；</li><li>新增了背景图功能；</li><li>新增了畅言、腾讯兔小巢、哔哔、 <code>Artitalk</code> 等评论或说说功能；</li><li>开始阅读部分行为修改；</li><li>修改了 TOC 目录高度为自适应；</li><li>修复了搜索的相关问题；</li><li>其他小问题修改；</li></ul></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Vue </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>typora-vue-theme主题介绍</title>
       <link href="/2018/09/07/hello-world/"/>
       <url>/2018/09/07/hello-world/</url>
@@ -386,6 +361,31 @@
             <tag> Typora </tag>
             
             <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue主题介绍</title>
+      <link href="/2018/09/07/vue/vue/"/>
+      <url>/2018/09/07/vue/vue/</url>
+      
+        <content type="html"><![CDATA[<h1 id="变更记录-CHANGELOG"><a href="#变更记录-CHANGELOG" class="headerlink" title="变更记录 (CHANGELOG)"></a>变更记录 (CHANGELOG)</h1><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><ul><li><p>v2.0.0</p><ul><li>新增了对 Hexo 5.0.0 的支持，并推荐升级使用 Hexo 5.0.0，去除了对 <code>hexo-prism-plugin</code> 插件的依赖，可直接使用自带的 <code>prismjs</code> 插件；</li><li>新增了背景图功能；</li><li>新增了畅言、腾讯兔小巢、哔哔、 <code>Artitalk</code> 等评论或说说功能；</li><li>开始阅读部分行为修改；</li><li>修改了 TOC 目录高度为自适应；</li><li>修复了搜索的相关问题；</li><li>其他小问题修改；</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
             
         </tags>
       
